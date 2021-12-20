@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Nunito', 'Arial', sans-serif;
+    background-image: url('../images/background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.tasks{
+    background-image: url('../images/background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 95px 0px 125px 0px;
+
+}
+
+.tasks-title{
+    font-size: 36px;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.tasks-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.list-item{
+    padding: 30px 35px;
+    width: 847px;
+    background-color: #2e2c9c;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.list-item-title{
+    color: #fff;
+    font-style: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.list-item-box{
+    width: 659px;
+
+}
+
+.list-item-text{
+    color: #fff;
+    font-style: 16px;
+    align-items: center;
+}
+.box::before{
+    content: '';
+    display: inline-block;
+    width: 88px;
+    height: 88px;
+    background-repeat: no-repeat;
+
+}
+
+.asigment{
+    background-image: url('../images/ruler-icon.svg');
+    background-repeat: no-repeat;
+  
+}
+.consult{
+    background-image: url('../images/consulting-icon.svg');
+    background-repeat: no-repeat;
+}
+.support{
+    background-image: url('../images/bottle-icon.svg');
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+
